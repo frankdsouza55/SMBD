@@ -1,7 +1,0 @@
-D:\NOTES\SEM 5\DBMS\Prac\Project\Login\Chef\bin\Debug\Chef.exe
-D:\NOTES\SEM 5\DBMS\Prac\Project\Login\Chef\bin\Debug\Chef.pdb
-D:\NOTES\SEM 5\DBMS\Prac\Project\Login\Chef\obj\x86\Debug\Chef.Chef.resources
-D:\NOTES\SEM 5\DBMS\Prac\Project\Login\Chef\obj\x86\Debug\Chef.Properties.Resources.resources
-D:\NOTES\SEM 5\DBMS\Prac\Project\Login\Chef\obj\x86\Debug\Chef.csproj.GenerateResource.Cache
-D:\NOTES\SEM 5\DBMS\Prac\Project\Login\Chef\obj\x86\Debug\Chef.exe
-D:\NOTES\SEM 5\DBMS\Prac\Project\Login\Chef\obj\x86\Debug\Chef.pdb

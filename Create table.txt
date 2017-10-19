@@ -1,0 +1,71 @@
+create table EMPLOYEE
+(eid number(5) primary key,
+ename varchar2(30),
+join_date date,
+job_type varchar2 (10),
+mgrid number(5) references employee(eid));
+
+create table CHEF
+(eid number(5) references EMPLOYEE(eid) primary key,
+specialty varchar2 (30));
+
+create table WAITER
+(eid number(5) references EMPLOYEE(eid) primary key,
+rating number(2));
+
+create table CUSTOMER
+(cid number(5) primary key,
+cname varchar2(30));
+
+create table CUST_PHONE
+(cid number(5),
+phone_no number(12));
+
+create table DISH
+(did number(5) primary key,
+dish_name varchar2(20),
+type varchar2(20),
+category varchar2(20),
+price number(5));
+
+create table ORDER_LIST
+(oid number(5) primary key,
+did number(5) references DISH(did),
+quantity number(3));
+
+create table TAKES_ORDER
+(eid number(5) references WAITER(eid),
+cid number(5) references CUSTOMER(cid),
+oid number(5) references ORDER_LIST(oid),
+table_no number(3));
+
+create table PICKS_ORDER
+(eid number(5) references CHEF(eid),
+oid number(5) references ORDER_LIST(oid));
+
+create table COOKS
+(eid number(5) references CHEF(eid),
+did number(5) references DISH(did));
+
+create table SERVES
+(eid number(5) references WAITER(eid),
+oid number(5) references ORDER_LIST(oid),
+cid number(5) references CUSTOMER(cid));
+
+create table PREPARES_BILL
+(eid number(5) references CASHIER(eid),
+cid number(5) references CUSTOMER(cid),
+oid number(5) references ORDER_LIST(oid));
+
+create table CHOOSES 
+(cid number(5) references CUSTOMER(cid),
+did number(5) references DISH(did));
+
+
+
+
+chef		100-199
+waiter	200-299
+cashier	300-399
+dish		500-999
+customer	1000

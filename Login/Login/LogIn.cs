@@ -42,16 +42,16 @@ namespace Login
             }
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-            
-        }
-
         private void button2_Click(object sender, EventArgs e)
         {
             this.Hide();
             Customer obj4 = new Customer();
             obj4.Show();
+        }
+        
+        private void label1_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }

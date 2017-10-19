@@ -1,0 +1,9 @@
+D:\NOTES\SEM 5\DBMS\Prac\Project\Login\Login\obj\x86\Debug\Login.csprojResolveAssemblyReference.cache
+D:\NOTES\SEM 5\DBMS\Prac\Project\Login\Login\obj\x86\Debug\Login.LogIn.resources
+D:\NOTES\SEM 5\DBMS\Prac\Project\Login\Login\obj\x86\Debug\Login.Properties.Resources.resources
+D:\NOTES\SEM 5\DBMS\Prac\Project\Login\Login\obj\x86\Debug\Login.csproj.GenerateResource.Cache
+D:\NOTES\SEM 5\DBMS\Prac\Project\Login\Login\bin\Debug\Login.exe
+D:\NOTES\SEM 5\DBMS\Prac\Project\Login\Login\bin\Debug\Login.pdb
+D:\NOTES\SEM 5\DBMS\Prac\Project\Login\Login\obj\x86\Debug\Login.exe
+D:\NOTES\SEM 5\DBMS\Prac\Project\Login\Login\obj\x86\Debug\Login.pdb
+D:\NOTES\SEM 5\DBMS\Prac\Project\Login\Login\obj\x86\Debug\Login.Customer.resources

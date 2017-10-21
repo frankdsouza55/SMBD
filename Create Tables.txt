@@ -64,8 +64,8 @@ did number(5) references DISH(did));
 
 
 
-chef		  100-199
-waiter	  200-299
-cashier	  300-399
-dish		  500-999
+chef		100-199
+waiter	  	200-299
+cashier	  	300-399
+dish		500-999
 customer	1000

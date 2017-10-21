@@ -8,7 +8,7 @@ Order of importing the tables:
 7 DISH
 8 ORDER_LIST
 
-Remaining tables should be entered using the CREATE table & INSERT table commands. For creation, refer to the "Create tables.doc" file. 
+Remaining tables should be entered using the CREATE table & INSERT table commands. For creation, refer to the "Create tables.txt" file. 
 9 TAKES_ORDER (Take the data from the .txt files.)
 10 PICKS_ORDER
 11 COOKS

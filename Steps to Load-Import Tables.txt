@@ -16,7 +16,7 @@ Remaining tables should be entered using the CREATE table & INSERT table command
 13 PREPARES_BILL
 14 CHOOSES 
 
-Steps: (To load ONE table at a time)
+**Steps:** (To load ONE table at a time)
 1. Home > Utilities > Data Load/Unload > Load > Load Text Data
 2. Load to: New Table; Load From: Upload File (Both are selected by default) > Next
 3. Choose File:(Browse for the text file of a table) & check mark the "First row contains column names" option (selected by default) > Next

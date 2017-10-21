@@ -1,0 +1,9 @@
+DID,DISH_NAME,TYPE,CATEGORY,PRICE
+500,Watermelon Juice,Drinks,Veg,80
+501,Cinnamon Tea,Drinks,Veg,40
+600,French Fries,Starters,Veg,70
+601,Chicken Lollipop,Starters,Non-Veg,100
+700,Gobi Manchurian,Main Course,Veg,120
+701,Chicken Fried Rice,Main Course,Non-Veg,150
+800,Jelly,Dessert,Veg,50
+801,Caramel Pudding,Dessert,Non-Veg,60

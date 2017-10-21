@@ -1,0 +1,46 @@
+Order of importing the tables:
+1 EMPLOYEE
+2 CHEF
+3 WAITER
+4 CASHIER
+5 CUSTOMER
+6 CUST_PHONE
+7 DISH
+8 ORDER_LIST
+
+Remaining tables should be entered using the CREATE table & INSERT table commands. For creation, refer to the "Create tables.doc" file. 
+9 TAKES_ORDER (Take the data from the .txt files.)
+10 PICKS_ORDER
+11 COOKS
+12 SERVES
+13 PREPARES_BILL
+14 CHOOSES 
+
+Steps: (To load ONE table at a time)
+1. Home > Utilities > Data Load/Unload > Load > Load Text Data
+2. Load to: New Table; Load From: Upload File (Both are selected by default) > Next
+3. Choose File:(Browse for the text file of a table) & check mark the "First row contains column names" option (selected by default) > Next
+4. Type the Table Name (& just cross-check if all rows from the file are visible below) > Next
+5. 	a) Primary Key From: USE EXISTING COLUMN
+	b) Select the correct PK from the drop-down menu (usually selected by default)
+	c) PK Population: (Different for different tables)
+		1 EMPLOYEE - Generated from a new sequence
+			Sequence: EMPLOYEE_SEQ
+		2 CHEF - Generated from an existing sequence
+			Sequence: EMPLOYEE_SEQ (Select from drop-down menu)
+		3 WAITER - Generated from an existing sequence
+			Sequence: EMPLOYEE_SEQ
+		4 CASHIER - Generated from an existing sequence
+			Sequence: EMPLOYEE_SEQ
+		5 CUSTOMER - Generated from a new sequence
+			Sequence:CUSTOMER_SEQ
+		6 CUST_PHONE - Generated from an existing sequence
+			Sequence:CUSTOMER_SEQ
+		7 DISH - Generated from a new sequence
+			Sequence:DISH_SEQ
+		8 ORDER_LIST - Generated from a new sequence
+			Sequence:ORDER_LIST_SEQ
+
+(If there are any Sequences already existing, then just rename the current sequence and use this name accordingly for other tables)
+6. Load data.
+7. while(table name!="ORDER_LIST") goto step 1 ;)

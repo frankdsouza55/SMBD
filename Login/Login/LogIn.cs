@@ -26,7 +26,7 @@ namespace Login
             }
             else if (x>=200 && x < 300 && textBox2.Text == "waiter")
             {
-                Waiter obj2 = new Waiter();
+                Waiter obj2 = new Waiter(x);
                 obj2.Show();
             }
             else if (x >= 300 && x < 400 && textBox2.Text == "cashier")

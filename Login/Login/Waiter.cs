@@ -11,9 +11,13 @@ namespace Login
 {
     public partial class Waiter : Form
     {
-        public Waiter()
+        public int eid;
+        public Waiter(int abc)
         {
             InitializeComponent();
+            eid = abc;
+            if (eid == 200)
+                panel1.Visible = true;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -21,6 +25,13 @@ namespace Login
             LogIn x = new LogIn();
             x.Show();
             this.Hide();
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            Insert obj = new Insert(eid);
+            //this.Hide();
+            obj.Show();
         }
     }
 }

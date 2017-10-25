@@ -7,3 +7,16 @@ D:\NOTES\SEM 5\DBMS\Prac\Project\Login\Login\bin\Debug\Login.pdb
 D:\NOTES\SEM 5\DBMS\Prac\Project\Login\Login\obj\x86\Debug\Login.exe
 D:\NOTES\SEM 5\DBMS\Prac\Project\Login\Login\obj\x86\Debug\Login.pdb
 D:\NOTES\SEM 5\DBMS\Prac\Project\Login\Login\obj\x86\Debug\Login.Customer.resources
+C:\Users\user\Documents\GitHub\SMBD\Login\Login\obj\x86\Debug\Login.exe
+C:\Users\user\Documents\GitHub\SMBD\Login\Login\obj\x86\Debug\Login.pdb
+C:\Users\user\Documents\GitHub\SMBD\Login\Login\bin\Debug\Login.exe
+C:\Users\user\Documents\GitHub\SMBD\Login\Login\bin\Debug\Login.pdb
+C:\Users\user\Documents\GitHub\SMBD\Login\Login\obj\x86\Debug\Login.csprojResolveAssemblyReference.cache
+C:\Users\user\Documents\GitHub\SMBD\Login\Login\obj\x86\Debug\Login.Customer.resources
+C:\Users\user\Documents\GitHub\SMBD\Login\Login\obj\x86\Debug\Login.LogIn.resources
+C:\Users\user\Documents\GitHub\SMBD\Login\Login\obj\x86\Debug\Login.Properties.Resources.resources
+C:\Users\user\Documents\GitHub\SMBD\Login\Login\obj\x86\Debug\Login.Waiter.resources
+C:\Users\user\Documents\GitHub\SMBD\Login\Login\obj\x86\Debug\Login.csproj.GenerateResource.Cache
+C:\Users\user\Documents\GitHub\SMBD\Login\Login\obj\x86\Debug\Login.Cashier.resources
+C:\Users\user\Documents\GitHub\SMBD\Login\Login\obj\x86\Debug\Login.Chef.resources
+C:\Users\user\Documents\GitHub\SMBD\Login\Login\obj\x86\Debug\Login.Insert.resources

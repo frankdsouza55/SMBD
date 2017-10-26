@@ -18,15 +18,15 @@ namespace Login
             InitializeComponent();
             eid = abc;
             //String connection = "Provider=OraOLEDB.Oracle;Data Source=localhost;User Id=system;Password=system;OLEDB.NET=True";
-            //OleDbConnection obj1 = new OleDbConnection(connection);
+            //OleDbConnection obj9 = new OleDbConnection(connection);
             //try
             {
 
                 if (eid == 200)
                 {
                     //string q = "select max(eid) from employee where job_type='Waiter';";
-                    //obj1.Open();
-                    //OleDbDataAdapter da = new OleDbDataAdapter(q, obj1);
+                    //obj9.Open();
+                    //OleDbDataAdapter da = new OleDbDataAdapter(q, obj9);
                     //int x;
                     //da.Fill(x);
                     //label5.Text = "200";

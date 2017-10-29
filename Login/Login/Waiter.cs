@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.OleDb;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -16,8 +17,28 @@ namespace Login
         {
             InitializeComponent();
             eid = abc;
+            string a = eid.ToString();
             if (eid == 200)
                 panel1.Visible = true;
+            String connection = "Provider=OraOLEDB.Oracle;Data Source=localhost;User Id=system;Password=system;OLEDB.NET=True";
+            OleDbConnection obj1 = new OleDbConnection(connection);
+            obj1.Open();
+            string fetch = "select * from employee where eid =" + a;
+            try
+            {
+                OleDbCommand cm2 = new OleDbCommand(fetch, obj1);
+                cm2.ExecuteNonQuery();
+                OleDbDataAdapter da = new OleDbDataAdapter(fetch, obj1);
+                DataTable d = new DataTable();
+                da.Fill(d);
+                dataGridView1.DataSource = d;
+                button2.Enabled = true;
+                obj1.Close();
+            }
+            catch (Exception ee)
+            {
+                MessageBox.Show(ee.Message);
+            }
         }
 
         private void button1_Click(object sender, EventArgs e)

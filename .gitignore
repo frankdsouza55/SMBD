@@ -3,3 +3,4 @@
 *.txt
 Login/Login/obj/x86/Debug/Login.csproj.FileListAbsolute.txt
 Login/Login/obj/x86/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+*.cache

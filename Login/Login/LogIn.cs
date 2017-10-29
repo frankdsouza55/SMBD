@@ -58,5 +58,14 @@ namespace Login
         {
 
         }
+        private void SetButton()
+        {
+            button1.Enabled = (textBox1.Text != "" && textBox2.Text != "" );
+        }
+        
+        private void textBox2_TextChanged_1(object sender, EventArgs e)
+        {
+            SetButton();
+        }
     }
 }

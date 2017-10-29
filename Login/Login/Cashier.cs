@@ -16,11 +16,16 @@ namespace Login
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void Logout_Click(object sender, EventArgs e)
         {
             LogIn x = new LogIn();
             x.Show();
             this.Hide();
+        }
+
+        private void Cashier_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -105,5 +105,9 @@ namespace Login
             this.Hide();
         }
 
+        private void Insert_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -20,3 +20,17 @@ C:\Users\user\Documents\GitHub\SMBD\Login\Login\obj\x86\Debug\Login.csproj.Gener
 C:\Users\user\Documents\GitHub\SMBD\Login\Login\obj\x86\Debug\Login.Cashier.resources
 C:\Users\user\Documents\GitHub\SMBD\Login\Login\obj\x86\Debug\Login.Chef.resources
 C:\Users\user\Documents\GitHub\SMBD\Login\Login\obj\x86\Debug\Login.Insert.resources
+C:\Users\DATTATRAY\Documents\GitHub\SMBD\Login\Login\bin\Debug\Login.exe
+C:\Users\DATTATRAY\Documents\GitHub\SMBD\Login\Login\bin\Debug\Login.pdb
+C:\Users\DATTATRAY\Documents\GitHub\SMBD\Login\Login\obj\x86\Debug\Login.csprojResolveAssemblyReference.cache
+C:\Users\DATTATRAY\Documents\GitHub\SMBD\Login\Login\obj\x86\Debug\Login.Cashier.resources
+C:\Users\DATTATRAY\Documents\GitHub\SMBD\Login\Login\obj\x86\Debug\Login.Chef.resources
+C:\Users\DATTATRAY\Documents\GitHub\SMBD\Login\Login\obj\x86\Debug\Login.Customer.resources
+C:\Users\DATTATRAY\Documents\GitHub\SMBD\Login\Login\obj\x86\Debug\Login.Insert.resources
+C:\Users\DATTATRAY\Documents\GitHub\SMBD\Login\Login\obj\x86\Debug\Login.LogIn.resources
+C:\Users\DATTATRAY\Documents\GitHub\SMBD\Login\Login\obj\x86\Debug\Login.Properties.Resources.resources
+C:\Users\DATTATRAY\Documents\GitHub\SMBD\Login\Login\obj\x86\Debug\Login.Waiter.resources
+C:\Users\DATTATRAY\Documents\GitHub\SMBD\Login\Login\obj\x86\Debug\Login.csproj.GenerateResource.Cache
+C:\Users\DATTATRAY\Documents\GitHub\SMBD\Login\Login\obj\x86\Debug\Login.csproj.CoreCompileInputs.cache
+C:\Users\DATTATRAY\Documents\GitHub\SMBD\Login\Login\obj\x86\Debug\Login.exe
+C:\Users\DATTATRAY\Documents\GitHub\SMBD\Login\Login\obj\x86\Debug\Login.pdb

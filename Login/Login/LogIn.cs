@@ -53,5 +53,10 @@ namespace Login
         {
             
         }
+
+        private void LogIn_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

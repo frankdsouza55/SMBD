@@ -49,6 +49,7 @@
             this.Controls.Add(this.button1);
             this.Name = "Chef";
             this.Text = "Chef";
+            this.Load += new System.EventHandler(this.Chef_Load);
             this.ResumeLayout(false);
 
         }

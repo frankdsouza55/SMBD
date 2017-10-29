@@ -20,3 +20,4 @@ C:\Users\user\Documents\GitHub\SMBD\Login\Login\obj\x86\Debug\Login.csproj.Gener
 C:\Users\user\Documents\GitHub\SMBD\Login\Login\obj\x86\Debug\Login.Cashier.resources
 C:\Users\user\Documents\GitHub\SMBD\Login\Login\obj\x86\Debug\Login.Chef.resources
 C:\Users\user\Documents\GitHub\SMBD\Login\Login\obj\x86\Debug\Login.Insert.resources
+C:\Users\user\Documents\GitHub\SMBD\Login\Login\obj\x86\Debug\Login.Delete.resources

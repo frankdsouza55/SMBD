@@ -11,9 +11,11 @@ namespace Login
 {
     public partial class Cashier : Form
     {
-        public Cashier()
+        public int eid;
+        public Cashier(int id)
         {
             InitializeComponent();
+            eid = id;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -21,6 +23,11 @@ namespace Login
             LogIn x = new LogIn();
             x.Show();
             this.Hide();
+        }
+
+        private void Cashier_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

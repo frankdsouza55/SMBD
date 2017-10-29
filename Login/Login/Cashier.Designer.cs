@@ -49,6 +49,7 @@
             this.Controls.Add(this.button1);
             this.Name = "Cashier";
             this.Text = "Cashier";
+            this.Load += new System.EventHandler(this.Cashier_Load);
             this.ResumeLayout(false);
 
         }

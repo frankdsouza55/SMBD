@@ -21,7 +21,7 @@ namespace Login
             int x = Int32.Parse(textBox1.Text);
             if (x>=100 && x <200 && textBox2.Text =="chef")
             {
-                Chef obj1 = new Chef();
+                Chef obj1 = new Chef(x);
                 obj1.Show();
             }
             else if (x>=200 && x < 300 && textBox2.Text == "waiter")
@@ -31,7 +31,7 @@ namespace Login
             }
             else if (x >= 300 && x < 400 && textBox2.Text == "cashier")
             {
-                Cashier obj3 = new Cashier();
+                Cashier obj3 = new Cashier(x);
                 obj3.Show();
             }
             else

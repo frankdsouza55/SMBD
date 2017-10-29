@@ -17,39 +17,24 @@ namespace Login
         {
             InitializeComponent();
             eid = abc;
-            //String connection = "Provider=OraOLEDB.Oracle;Data Source=localhost;User Id=system;Password=system;OLEDB.NET=True";
-            //OleDbConnection obj9 = new OleDbConnection(connection);
-            //try
             {
 
                 if (eid == 200)
                 {
-                    //string q = "select max(eid) from employee where job_type='Waiter';";
-                    //obj9.Open();
-                    //OleDbDataAdapter da = new OleDbDataAdapter(q, obj9);
-                    //int x;
-                    //da.Fill(x);
-                    //label5.Text = "200";
                     label6.Text = "Waiter";
                     textBox2.Enabled = true;
                 }
                 else if (eid == 300)
                 {
-                    //label5.Text = "300";
                     label6.Text = "Cashier";
                     textBox4.Enabled = true;
                 }
                 else if (eid == 100)
                 {
-                    //label5.Text = "100";
                     label6.Text = "Chef";
                     textBox3.Enabled = true;
                 }
             }
-            //catch (Exception ee)
-            //{
-            //    MessageBox.Show(ee.Message);
-            //}
         }
 
         private void button1_Click(object sender, EventArgs e)

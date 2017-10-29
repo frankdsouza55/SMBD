@@ -39,6 +39,8 @@ namespace Login
                 MessageBox.Show("Invalid Username  or password");
                 textBox1.Clear();
                 textBox2.Clear();
+                LogIn l = new LogIn();
+                l.Show();
             }
         }
 

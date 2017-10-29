@@ -20,7 +20,7 @@ namespace Login
             string a = eid.ToString();
             if (eid == 200)
                 panel1.Visible = true;
-            String connection = "Provider=OraOLEDB.Oracle;Data Source=localhost;User Id=SYSTEM;Password=SYSTEM;OLEDB.NET=True";
+            String connection = "Provider=OraOLEDB.Oracle;Data Source=localhost;User Id=system;Password=SYSTEM;OLEDB.NET=True";
             OleDbConnection obj1 = new OleDbConnection(connection);
             obj1.Open();
             string fetch = "select * from employee where eid =" + a;

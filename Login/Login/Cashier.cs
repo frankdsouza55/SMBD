@@ -11,9 +11,11 @@ namespace Login
 {
     public partial class Cashier : Form
     {
-        public Cashier()
+        public int eid;
+        public Cashier(int id)
         {
             InitializeComponent();
+            eid = id;
         }
 
         private void Logout_Click(object sender, EventArgs e)

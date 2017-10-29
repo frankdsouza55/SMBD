@@ -20,6 +20,7 @@ C:\Users\user\Documents\GitHub\SMBD\Login\Login\obj\x86\Debug\Login.csproj.Gener
 C:\Users\user\Documents\GitHub\SMBD\Login\Login\obj\x86\Debug\Login.Cashier.resources
 C:\Users\user\Documents\GitHub\SMBD\Login\Login\obj\x86\Debug\Login.Chef.resources
 C:\Users\user\Documents\GitHub\SMBD\Login\Login\obj\x86\Debug\Login.Insert.resources
+<<<<<<< HEAD
 C:\Users\DATTATRAY\Documents\GitHub\SMBD\Login\Login\bin\Debug\Login.exe
 C:\Users\DATTATRAY\Documents\GitHub\SMBD\Login\Login\bin\Debug\Login.pdb
 C:\Users\DATTATRAY\Documents\GitHub\SMBD\Login\Login\obj\x86\Debug\Login.csprojResolveAssemblyReference.cache
@@ -34,3 +35,6 @@ C:\Users\DATTATRAY\Documents\GitHub\SMBD\Login\Login\obj\x86\Debug\Login.csproj.
 C:\Users\DATTATRAY\Documents\GitHub\SMBD\Login\Login\obj\x86\Debug\Login.csproj.CoreCompileInputs.cache
 C:\Users\DATTATRAY\Documents\GitHub\SMBD\Login\Login\obj\x86\Debug\Login.exe
 C:\Users\DATTATRAY\Documents\GitHub\SMBD\Login\Login\obj\x86\Debug\Login.pdb
+=======
+C:\Users\user\Documents\GitHub\SMBD\Login\Login\obj\x86\Debug\Login.Delete.resources
+>>>>>>> fbd760f7317c37988711491cab3b1e99f1cf57ff

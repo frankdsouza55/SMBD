@@ -30,7 +30,14 @@ namespace Login
         private void button1_Click_1(object sender, EventArgs e)
         {
             Insert obj = new Insert(eid);
-            //this.Hide();
+            this.Hide();
+            obj.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Delete obj = new Delete(eid);
+            this.Hide();
             obj.Show();
         }
     }

@@ -24,3 +24,4 @@ C:\Users\admin\Documents\SMBD\Login\Login\obj\x86\Debug\Login.LogIn.resources
 C:\Users\admin\Documents\SMBD\Login\Login\obj\x86\Debug\Login.Properties.Resources.resources
 C:\Users\admin\Documents\SMBD\Login\Login\obj\x86\Debug\Login.Waiter.resources
 C:\Users\admin\Documents\SMBD\Login\Login\obj\x86\Debug\Login.csproj.GenerateResource.Cache
+C:\Users\user\Documents\GitHub\SMBD\Login\Login\obj\x86\Debug\Login.csprojResolveAssemblyReference.cache

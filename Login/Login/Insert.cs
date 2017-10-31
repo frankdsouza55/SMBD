@@ -70,7 +70,7 @@ namespace Login
                 cm1.ExecuteNonQuery();
                 OleDbCommand cm2 = new OleDbCommand(x, obj2);
                 cm2.ExecuteNonQuery();
-                MessageBox.Show("Record Insert");
+                MessageBox.Show("Record Inserted!");
             }
             catch (Exception ee)
             {
@@ -89,7 +89,24 @@ namespace Login
 
         private void button2_Click(object sender, EventArgs e)
         {
-            this.Hide();
+            if (eid == 200)
+            {
+                Waiter w = new Waiter(eid);
+                this.Close();
+                w.Show();
+            }
+            else if (eid == 300)
+            {
+                Cashier c = new Cashier(eid);
+                this.Close();
+                c.Show();
+            }
+            else if (eid == 100)
+            {
+                Chef ch = new Chef(eid);
+                this.Close();
+                ch.Show();
+            }
         }
 
         private void Insert_Load(object sender, EventArgs e)

@@ -24,7 +24,7 @@ namespace Login
             OleDbConnection obj1 = new OleDbConnection(connection);
             obj1.Open();
             string fetch = "select * from employee where eid =" + a;
-            String rating = "select rating from chef where eid =" + a;
+            String speciality = "select speciality from chef where eid =" + a;
             try
             {
                 OleDbCommand cm2 = new OleDbCommand(fetch, obj1);
@@ -34,12 +34,12 @@ namespace Login
                 da.Fill(d);
                 dataGridView1.DataSource = d;
 
-                //OleDbCommand cm3 = new OleDbCommand(rating, obj1);
+                //OleDbCommand cm3 = new OleDbCommand(speciality, obj1);
                 //cm3.ExecuteNonQuery();
-                //OleDbDataAdapter da1 = new OleDbDataAdapter(rating, obj1);
+                //OleDbDataAdapter da1 = new OleDbDataAdapter(speciality, obj1);
                 //DataSet dset = new DataSet();
                 //da1.Fill(dset, "waiter");
-                //label3.Text = dset.Tables["waiter"].Rows[0]["rating"].ToString();
+                //label3.Text = dset.Tables["waiter"].Rows[0]["speciality"].ToString();
 
                 button2.Enabled = true;
                 obj1.Close();

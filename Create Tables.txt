@@ -37,6 +37,8 @@ create table ORDER_LIST
 did number(5) references DISH(did),
 quantity number(3));
 
+
+
 create table TAKES_ORDER
 (eid number(5) references WAITER(eid),
 cid number(5) references CUSTOMER(cid),

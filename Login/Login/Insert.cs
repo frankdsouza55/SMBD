@@ -47,6 +47,7 @@ namespace Login
             if (eid == 100)
             {
                 type = "Chef";
+                x = "insert into chef values (" + textBox5.Text + "," + textBox3.Text + ")";
             }
             else if (eid == 200)
             {
@@ -56,6 +57,7 @@ namespace Login
             else if (eid == 300)
             {
                 type = "Cashier";
+                x = "insert into cashier values (" + textBox5.Text + "," + textBox4.Text + ")";
             }
             
             

@@ -34,12 +34,12 @@ namespace Login
                 da.Fill(d);
                 dataGridView1.DataSource = d;
 
-                OleDbCommand cm3 = new OleDbCommand(rating, obj1);
-                cm3.ExecuteNonQuery();
-                OleDbDataAdapter da1 = new OleDbDataAdapter(rating, obj1);
-                DataSet dset = new DataSet();
-                da1.Fill(dset, "waiter");
-                label3.Text = dset.Tables["waiter"].Rows[0]["rating"].ToString();
+                //OleDbCommand cm3 = new OleDbCommand(rating, obj1);
+                //cm3.ExecuteNonQuery();
+                //OleDbDataAdapter da1 = new OleDbDataAdapter(rating, obj1);
+                //DataSet dset = new DataSet();
+                //da1.Fill(dset, "waiter");
+                //label3.Text = dset.Tables["waiter"].Rows[0]["rating"].ToString();
                 
                 button2.Enabled = true;
                 obj1.Close();

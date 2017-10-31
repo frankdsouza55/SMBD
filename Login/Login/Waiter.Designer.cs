@@ -42,7 +42,7 @@
             // 
             // logout_button
             // 
-            this.logout_button.Location = new System.Drawing.Point(440, 356);
+            this.logout_button.Location = new System.Drawing.Point(842, 356);
             this.logout_button.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.logout_button.Name = "logout_button";
             this.logout_button.Size = new System.Drawing.Size(99, 47);

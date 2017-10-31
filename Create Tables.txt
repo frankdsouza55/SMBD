@@ -13,6 +13,10 @@ create table WAITER
 (eid number(5) references EMPLOYEE(eid) primary key,
 rating number(2));
 
+create table CASHIER
+(eid number(5) references EMPLOYEE(eid) primary key,
+years_of_experience number(2));
+
 create table CUSTOMER
 (cid number(5) primary key,
 cname varchar2(30));

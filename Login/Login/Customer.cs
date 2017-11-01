@@ -197,7 +197,7 @@ namespace Login
         {
             String connection = "Provider=OraOLEDB.Oracle;Data Source=localhost;User Id=system;Password=SYSTEM;OLEDB.NET=True";
             OleDbConnection obj1 = new OleDbConnection(connection);
-            String f1 = "select max(cid) as cid from customer";
+            String f1 = "select max(cid) as cid from orders";
             try
             {
                 obj1.Open();
@@ -205,8 +205,8 @@ namespace Login
                 cm3.ExecuteNonQuery();
                 OleDbDataAdapter da1 = new OleDbDataAdapter(f1, obj1);
                 DataSet dset = new DataSet();
-                da1.Fill(dset, "customer");
-                int id = Int32.Parse(dset.Tables["customer"].Rows[0]["cid"].ToString());        //get last id
+                da1.Fill(dset, "orders");
+                int id = Int32.Parse(dset.Tables["orders"].Rows[0]["cid"].ToString());        //get last id
                 id++;
                 Console.Write(id);
                 String insrt = "insert into customer values(" + id + ",'" + textBox1.Text + "')";

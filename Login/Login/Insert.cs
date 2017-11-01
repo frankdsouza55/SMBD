@@ -60,8 +60,7 @@ namespace Login
                 x = "insert into cashier values (" + textBox5.Text + "," + textBox4.Text + ")";
             }
             
-            
-            query = "insert into employee values ("+ textBox5.Text + ",'" + textBox1.Text + "','" + textBox6.Text + "','" + type + "',"+eid+")";
+            query = "insert into employee values ("+ textBox5.Text + ",'" + textBox1.Text + "'," + "to_date('"+textBox6.Text+"','dd-mm-yy')" + ",'" + type + "',"+eid+")";
             obj1.Open();
             obj2.Open();
             try

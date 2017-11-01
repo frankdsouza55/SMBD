@@ -66,16 +66,16 @@
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Controls.Add(this.button2);
             this.panel1.Controls.Add(this.button1);
-            this.panel1.Location = new System.Drawing.Point(834, 38);
+            this.panel1.Location = new System.Drawing.Point(834, 19);
             this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(118, 169);
+            this.panel1.Size = new System.Drawing.Size(118, 112);
             this.panel1.TabIndex = 1;
             this.panel1.Visible = false;
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(19, 101);
+            this.button2.Location = new System.Drawing.Point(18, 67);
             this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
@@ -86,7 +86,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(19, 38);
+            this.button1.Location = new System.Drawing.Point(18, 12);
             this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 30);
@@ -159,6 +159,7 @@
             this.button3.TabIndex = 9;
             this.button3.Text = "Take Order";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // dataGridView3
             // 
@@ -169,7 +170,7 @@
             this.dataGridView3.Name = "dataGridView3";
             this.dataGridView3.ReadOnly = true;
             this.dataGridView3.RowTemplate.Height = 24;
-            this.dataGridView3.Size = new System.Drawing.Size(347, 179);
+            this.dataGridView3.Size = new System.Drawing.Size(503, 179);
             this.dataGridView3.TabIndex = 10;
             // 
             // label4

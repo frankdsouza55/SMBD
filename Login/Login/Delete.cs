@@ -91,7 +91,7 @@ namespace Login
                 cm2.ExecuteNonQuery();
                 textBox1.Clear();
                 button2.Enabled = false;
-                MessageBox.Show("Record Delete");
+                MessageBox.Show("Record Deleted!");
                 String q1 = "select * from employee";
 
                 OleDbDataAdapter da = new OleDbDataAdapter(q1, obj1);

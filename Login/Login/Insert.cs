@@ -47,7 +47,7 @@ namespace Login
             if (eid == 100)
             {
                 type = "Chef";
-                x = "insert into chef values (" + textBox5.Text + "," + textBox3.Text + ")";
+                x = "insert into chef values (" + textBox5.Text + ",'" + textBox3.Text + "')";
             }
             else if (eid == 200)
             {

@@ -23,8 +23,8 @@ namespace Login
             String connection = "Provider=OraOLEDB.Oracle;Data Source=localhost;User Id=system;Password=SYSTEM;OLEDB.NET=True";
             OleDbConnection obj1 = new OleDbConnection(connection);
             obj1.Open();
-            string fetch = "select * from employee where eid =" + a;
-            String speciality = "select speciality from chef where eid =" + a;
+            string fetch = "select e.eid,e.ename,e.join_date,c.specialty from employee e,chef c where e.eid=c.eid AND e.eid =" + a;
+            //String speciality = "select speciality from chef where eid =" + a;
             try
             {
                 OleDbCommand cm2 = new OleDbCommand(fetch, obj1);
@@ -75,6 +75,16 @@ namespace Login
             Delete obj = new Delete(eid);
             this.Hide();
             obj.Show();
+        }
+
+        private void button3_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Chef_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

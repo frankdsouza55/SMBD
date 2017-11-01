@@ -23,7 +23,7 @@ namespace Login
             String connection = "Provider=OraOLEDB.Oracle;Data Source=localhost;User Id=system;Password=SYSTEM;OLEDB.NET=True";
             OleDbConnection obj1 = new OleDbConnection(connection);
             obj1.Open();
-            string fetch = "select * from employee where eid =" + a;
+            string fetch = "select e.eid,e.ename,e.join_date,c.years_of_experience from employee e,cashier c where e.eid=c.eid AND e.eid =" + a;
             String years_of_experience = "select years_of_experience from cashier where eid =" + a;
             try
             {

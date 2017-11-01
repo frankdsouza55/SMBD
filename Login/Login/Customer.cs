@@ -184,5 +184,43 @@ namespace Login
         {
 
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            if (textBox1.Text == "")
+                button7.Enabled = false;
+            else
+                button7.Enabled = true;
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            String connection = "Provider=OraOLEDB.Oracle;Data Source=localhost;User Id=system;Password=SYSTEM;OLEDB.NET=True";
+            OleDbConnection obj1 = new OleDbConnection(connection);
+            String f1 = "select max(cid) as cid from customer";
+            try
+            {
+                obj1.Open();
+                OleDbCommand cm3 = new OleDbCommand(f1, obj1);
+                cm3.ExecuteNonQuery();
+                OleDbDataAdapter da1 = new OleDbDataAdapter(f1, obj1);
+                DataSet dset = new DataSet();
+                da1.Fill(dset, "customer");
+                int id = Int32.Parse(dset.Tables["customer"].Rows[0]["cid"].ToString());        //get last id
+                id++;
+                Console.Write(id);
+                String insrt = "insert into customer values(" + id + ",'" + textBox1.Text + "')";
+                OleDbCommand cm1 = new OleDbCommand(insrt, obj1);
+                cm1.ExecuteNonQuery();
+                MessageBox.Show("Kindly wait till a waiter arrives!");
+
+                obj1.Close();
+                textBox1.Clear();
+            }
+            catch (Exception e1)
+            {
+                MessageBox.Show(e1.Message);
+            }
+        }
     }
 }

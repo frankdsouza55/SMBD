@@ -67,7 +67,15 @@ create table CHOOSES
 (cid number(5) references CUSTOMER(cid),
 did number(5) references DISH(did));
 
-
+create table orders
+( oid number(5) primary key,
+order_date date,
+cid number(5) references customer(cid),
+cname varchar2(30),
+did number(5) references dish(did),
+quantity number(2),
+table_no number(2),
+finished number(1));
 
 
 chef		100-199

@@ -161,13 +161,13 @@ namespace Login
                 cm5.ExecuteNonQuery();
                 obj1.Close();
 
-                sync();
-
                 String updt = "update orders set finished = 3 where oid=" + Int32.Parse(textBox1.Text);
                 obj1.Open();                                                //insert into prepares_bill
                 OleDbCommand cm7 = new OleDbCommand(updt, obj1);
                 cm7.ExecuteNonQuery();
                 obj1.Close();
+
+                sync();
 
                 MessageBox.Show("Bill prepared successfully");
                 textBox1.Clear();
